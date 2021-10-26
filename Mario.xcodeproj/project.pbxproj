@@ -11,6 +11,12 @@
 		E160C7FB2727A96E0008FD07 /* Mario.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E160C7F02727A96E0008FD07 /* Mario.framework */; };
 		E160C8002727A96F0008FD07 /* MarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E160C7FF2727A96F0008FD07 /* MarioTests.swift */; };
 		E160C8012727A96F0008FD07 /* Mario.h in Headers */ = {isa = PBXBuildFile; fileRef = E160C7F32727A96E0008FD07 /* Mario.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E160C8782727AAE50008FD07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E160C8772727AAE50008FD07 /* AppDelegate.swift */; };
+		E160C87A2727AAE50008FD07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E160C8792727AAE50008FD07 /* SceneDelegate.swift */; };
+		E160C87C2727AAE50008FD07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E160C87B2727AAE50008FD07 /* ViewController.swift */; };
+		E160C87F2727AAE50008FD07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E160C87D2727AAE50008FD07 /* Main.storyboard */; };
+		E160C8812727AAE60008FD07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E160C8802727AAE60008FD07 /* Assets.xcassets */; };
+		E160C8842727AAE60008FD07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E160C8822727AAE60008FD07 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		E160C7F42727A96E0008FD07 /* Mario.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Mario.docc; sourceTree = "<group>"; };
 		E160C7FA2727A96E0008FD07 /* MarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E160C7FF2727A96F0008FD07 /* MarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioTests.swift; sourceTree = "<group>"; };
+		E160C8752727AAE50008FD07 /* MarioExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E160C8772727AAE50008FD07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E160C8792727AAE50008FD07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E160C87B2727AAE50008FD07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E160C87E2727AAE50008FD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E160C8802727AAE60008FD07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E160C8832727AAE60008FD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E160C8852727AAE60008FD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E160C8722727AAE50008FD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			children = (
 				E160C7F22727A96E0008FD07 /* Mario */,
 				E160C7FE2727A96F0008FD07 /* MarioTests */,
+				E160C8762727AAE50008FD07 /* MarioExamples */,
 				E160C7F12727A96E0008FD07 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +86,7 @@
 			children = (
 				E160C7F02727A96E0008FD07 /* Mario.framework */,
 				E160C7FA2727A96E0008FD07 /* MarioTests.xctest */,
+				E160C8752727AAE50008FD07 /* MarioExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +106,20 @@
 				E160C7FF2727A96F0008FD07 /* MarioTests.swift */,
 			);
 			path = MarioTests;
+			sourceTree = "<group>";
+		};
+		E160C8762727AAE50008FD07 /* MarioExamples */ = {
+			isa = PBXGroup;
+			children = (
+				E160C8772727AAE50008FD07 /* AppDelegate.swift */,
+				E160C8792727AAE50008FD07 /* SceneDelegate.swift */,
+				E160C87B2727AAE50008FD07 /* ViewController.swift */,
+				E160C87D2727AAE50008FD07 /* Main.storyboard */,
+				E160C8802727AAE60008FD07 /* Assets.xcassets */,
+				E160C8822727AAE60008FD07 /* LaunchScreen.storyboard */,
+				E160C8852727AAE60008FD07 /* Info.plist */,
+			);
+			path = MarioExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +172,23 @@
 			productReference = E160C7FA2727A96E0008FD07 /* MarioTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E160C8742727AAE50008FD07 /* MarioExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E160C8862727AAE60008FD07 /* Build configuration list for PBXNativeTarget "MarioExamples" */;
+			buildPhases = (
+				E160C8712727AAE50008FD07 /* Sources */,
+				E160C8722727AAE50008FD07 /* Frameworks */,
+				E160C8732727AAE50008FD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarioExamples;
+			productName = MarioExamples;
+			productReference = E160C8752727AAE50008FD07 /* MarioExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					E160C7F92727A96E0008FD07 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					E160C8742727AAE50008FD07 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				E160C7EF2727A96E0008FD07 /* Mario */,
 				E160C7F92727A96E0008FD07 /* MarioTests */,
+				E160C8742727AAE50008FD07 /* MarioExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E160C8732727AAE50008FD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E160C8842727AAE60008FD07 /* LaunchScreen.storyboard in Resources */,
+				E160C8812727AAE60008FD07 /* Assets.xcassets in Resources */,
+				E160C87F2727AAE50008FD07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +274,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E160C8712727AAE50008FD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E160C87C2727AAE50008FD07 /* ViewController.swift in Sources */,
+				E160C8782727AAE50008FD07 /* AppDelegate.swift in Sources */,
+				E160C87A2727AAE50008FD07 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,6 +293,25 @@
 			targetProxy = E160C7FC2727A96E0008FD07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E160C87D2727AAE50008FD07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E160C87E2727AAE50008FD07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E160C8822727AAE60008FD07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E160C8832727AAE60008FD07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E160C8022727A96F0008FD07 /* Debug */ = {
@@ -437,6 +534,62 @@
 			};
 			name = Release;
 		};
+		E160C8872727AAE60008FD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UL5C3DWEKM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarioExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanra.MarioExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E160C8882727AAE60008FD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UL5C3DWEKM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarioExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanra.MarioExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,6 +616,15 @@
 			buildConfigurations = (
 				E160C8082727A96F0008FD07 /* Debug */,
 				E160C8092727A96F0008FD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E160C8862727AAE60008FD07 /* Build configuration list for PBXNativeTarget "MarioExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E160C8872727AAE60008FD07 /* Debug */,
+				E160C8882727AAE60008FD07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
